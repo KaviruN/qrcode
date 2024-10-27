@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <div class="form">
+                <label for="inputText">Input Anything: </label>
+                <input type="text" name="" id="inputText" required>
+                <button type="submit" onclick="getQr()">Make QR</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="wrapper">
+            <div class="card">
+                <img src="" alt="QR code" id="qrImg">
+            </div>
+            <p class="title"><strong> Make your own qr code</strong></p>
+            <p class="sub-title">"Generate custom QR codes easily for links, contact info, and more. Quick, customizable, and ready for download and sharing!"</p>
+            <label for="inputText">Input Anything</label>
+            <input type="text" name="" id="inputText2" required>
+        </div>
+        <button type="submit" onclick="getQr2()">Make QR</button>
+        <h1 id="done"></h1>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

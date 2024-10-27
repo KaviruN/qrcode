@@ -1,0 +1,142 @@
+/* font-family: "Outfit", serif; */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --DARK-BLUE: hsl(218, 44%, 22%);
+  --LIGHT-BLUE: hsl(216, 95%, 58%);
+  --GRAY: hsl(216, 15%, 48%);
+  --OFF-WHITE: hsl(212, 45%, 89%);
+}
+
+body {
+    font-family: "Outfit", serif;
+    background-color: var(--OFF-WHITE);
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid var(--GRAY);
+    border-radius: 0.5em;
+    text-align: center;
+    outline: none;
+}
+
+label {
+    font-size: 2rem;
+    font-weight: 700;
+    
+}
+
+button {
+    padding: 0.5em 1em;
+    background-color: var(--LIGHT-BLUE);
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 2em;
+}
+
+
+
+button:hover,
+button:focus {
+    background-color: hsl(216, 95%, 65%);
+}
+
+.container {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--OFF-WHITE);
+  text-align: center;
+  flex-direction: column;
+}
+
+
+
+.wrapper {
+  background-color: hsl(0, 0%, 100%);
+  width: 320px;
+  height: 499px;
+  padding: 1em;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: var(--LIGHT-BLUE);
+  width: 288px;
+  height: 288px;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+.sub-title {
+  margin-bottom: 1em;
+}
+
+.title{
+    text-transform: uppercase;
+}
+
+.container input {
+    width: 50%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid var(--GRAY);
+    border-radius: 0.5em;
+    text-align: center;
+    outline: none;
+    align-self: center;
+    margin-top: 1em;
+}
+
+.container label {
+    font-size: 1rem;
+    font-weight: 700;
+    
+}
+
+.container button {
+    padding: 0.5em 1em;
+    background-color: var(--LIGHT-BLUE);
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 2em;
+}
+
+.container h1 {
+    color: var(--LIGHT-BLUE);
+    margin-top: .5em;
+}
